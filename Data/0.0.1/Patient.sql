@@ -1,8 +1,8 @@
 
-TRUNCATE TABLE Patients
+TRUNCATE TABLE Patient
     RESTART IDENTITY CASCADE;
     
-INSERT INTO Patients
+INSERT INTO Patient
     (Name, Phone, Gender)
 VALUES
     ('小陳', '0900000000', 'Male'),
